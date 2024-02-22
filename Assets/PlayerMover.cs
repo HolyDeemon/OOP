@@ -5,21 +5,20 @@ using UnityEngine;
 public class PlayerMover : MonoBehaviour
 {
     [Header("Movement")]
-    private float moveSpeed;
-
-    private float Drag;
+    public float moveSpeed;
+    public float Drag;
 
     [Header("Ground Check")]
     public float playerHeight;
     public LayerMask whatIsGround;
-    bool grounded;
+    private bool grounded;
 
-    private float jupmForce;
-    private float jumpCooldown;
-    private float airMultiplier;
+    //private float jupmForce;
+    //private float jumpCooldown;
+    //private float airMultiplier;
 
 
-    private Transform orientation;
+    public Transform orientation;
 
     private float horInput;
     private float verInput;

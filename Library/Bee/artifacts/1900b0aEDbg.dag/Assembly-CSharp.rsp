@@ -356,7 +356,7 @@
 "Assets/CamMover.cs"
 "Assets/ChunckMeshGen.cs"
 "Assets/FPS_Camera.cs"
-"Assets/NewBehaviourScript.cs"
+"Assets/PlayerMover.cs"
 -langversion:9.0
 
 /deterministic
