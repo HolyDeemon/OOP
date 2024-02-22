@@ -357,6 +357,7 @@
 "Assets/ChunckMeshGen.cs"
 "Assets/FPS_Camera.cs"
 "Assets/PlayerMover.cs"
+"Assets/SpawnManager.cs"
 -langversion:9.0
 
 /deterministic
