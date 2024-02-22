@@ -201,6 +201,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   Drag: 5
+  jupmForce: 7
+  jumpCooldown: 0.3
+  airMultiplier: 0.3
+  jumpKey: 32
   playerHeight: 2
   whatIsGround:
     serializedVersion: 2
