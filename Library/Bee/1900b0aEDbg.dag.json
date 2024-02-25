@@ -19376,8 +19376,13 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.rsp",
       "DisplayName": "Writing Assembly-CSharp.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1461366,
       "PayloadLength": 33004,
+=======
+      "PayloadOffset": 1347235,
+      "PayloadLength": 29074,
+>>>>>>> debd24afbfef5a5eb7885c250561c8ccc20b0eac
       "PayloadDebugContentSnippet": "-target:library\r\n-out:\"Library",
       "Inputs": [],
       "Outputs": [
@@ -19389,7 +19394,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.rsp2",
       "DisplayName": "Writing Assembly-CSharp.rsp2",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1494460,
+=======
+      "PayloadOffset": 1376399,
+>>>>>>> debd24afbfef5a5eb7885c250561c8ccc20b0eac
       "PayloadLength": 0,
       "PayloadDebugContentSnippet": "",
       "Inputs": [],
@@ -19637,10 +19646,17 @@
         "Assets/CamMover.cs",
         "Assets/ChunckMeshGen.cs",
         "Assets/FPS_Camera.cs",
+<<<<<<< HEAD
         "Assets/GunScript.cs",
         "Assets/PlayerMover.cs",
         "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
+=======
+        "Assets/PlayerMover.cs",
+        "Assets/SpawnManager.cs",
+        "D:/UnityEditor/2022.3.14f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll",
+        "D:/UnityEditor/2022.3.14f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll",
+>>>>>>> debd24afbfef5a5eb7885c250561c8ccc20b0eac
         "Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.rsp"
       ],
       "Outputs": [
@@ -19877,7 +19893,11 @@
       "Annotation": "WriteText Library/Bee/artifacts/1900b0aEDbg.dag/Assembly-CSharp.dll.mvfrm.rsp",
       "DisplayName": "Writing Assembly-CSharp.dll.mvfrm.rsp",
       "ActionType": "WriteFile",
+<<<<<<< HEAD
       "PayloadOffset": 1494559,
+=======
+      "PayloadOffset": 1376498,
+>>>>>>> debd24afbfef5a5eb7885c250561c8ccc20b0eac
       "PayloadLength": 9366,
       "PayloadDebugContentSnippet": "Library\\Bee\\artifacts\\mvdfrm\\U",
       "Inputs": [],
