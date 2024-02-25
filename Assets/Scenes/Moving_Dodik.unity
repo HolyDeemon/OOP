@@ -499,11 +499,6 @@ MonoBehaviour:
   orientation: {fileID: 317924414}
   kickback: 0
   FOV: 75
---- !u!198 &478321467 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 6561684178308966477, guid: 25f25458e4df0dd499fc0d4237c99ac3, type: 3}
-  m_PrefabInstance: {fileID: 1160780765}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &502855493
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,6 +737,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2044333643}
     m_Modifications:
+    - target: {fileID: 1097112270027927692, guid: 25f25458e4df0dd499fc0d4237c99ac3, type: 3}
+      propertyPath: camera
+      value: 
+      objectReference: {fileID: 461589258}
     - target: {fileID: 1944324386700012247, guid: 25f25458e4df0dd499fc0d4237c99ac3, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0
@@ -792,27 +791,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5225067328461189643, guid: 25f25458e4df0dd499fc0d4237c99ac3, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.7064338
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5225067328461189643, guid: 25f25458e4df0dd499fc0d4237c99ac3, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.030843573
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5225067328461189643, guid: 25f25458e4df0dd499fc0d4237c99ac3, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.7064338
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5225067328461189643, guid: 25f25458e4df0dd499fc0d4237c99ac3, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.030843573
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5225067328461189643, guid: 25f25458e4df0dd499fc0d4237c99ac3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: -5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5225067328461189643, guid: 25f25458e4df0dd499fc0d4237c99ac3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -90
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5225067328461189643, guid: 25f25458e4df0dd499fc0d4237c99ac3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -823,11 +822,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25f25458e4df0dd499fc0d4237c99ac3, type: 3}
---- !u!198 &1360969356 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 2061410166155814279, guid: 25f25458e4df0dd499fc0d4237c99ac3, type: 3}
-  m_PrefabInstance: {fileID: 1160780765}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1807944768
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,7 +981,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 1
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
@@ -1041,11 +1035,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1857746440}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1900320196 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4364891102530889634, guid: 25f25458e4df0dd499fc0d4237c99ac3, type: 3}
-  m_PrefabInstance: {fileID: 1160780765}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1900320197 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5225067328461189643, guid: 25f25458e4df0dd499fc0d4237c99ac3, type: 3}
@@ -1060,7 +1049,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2044333643}
-  - component: {fileID: 2044333644}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1084,28 +1072,6 @@ Transform:
   - {fileID: 1900320197}
   m_Father: {fileID: 461589255}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2044333644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2044333642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8b22f9e3353b224fb594da3bfc7a74d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GunObject: {fileID: 1900320196}
-  Particles:
-  - {fileID: 478321467}
-  - {fileID: 1360969356}
-  kc: 4301000044010000
-  whatIsGround:
-    serializedVersion: 2
-    m_Bits: 1024
-  shooted: 0
-  reload: 1
 --- !u!1 &2077029168
 GameObject:
   m_ObjectHideFlags: 0
